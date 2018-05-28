@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.labralab.shoppinglist.view.MainActivity">
+    <item
+        android:id="@+id/removeAll"
+        android:orderInCategory="100"
+        android:title="@string/action_clear_list"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/allBought"
+        android:orderInCategory="100"
+        android:title="@string/action_buy_all"
+        app:showAsAction="never" />
+</menu>

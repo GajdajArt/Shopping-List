@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|left"
+    android:orientation="horizontal"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+
+    >
+
+    <ImageButton
+        android:layout_marginRight="5dp"
+        android:id="@+id/newPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:padding="3dp"
+        android:src="@drawable/baseline_add_a_photo_black_36" />
+
+    <ImageButton
+        android:id="@+id/newIMG"
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:padding="3dp"
+        android:src="@drawable/baseline_add_photo_alternate_black_36" />
+
+
+
+    <EditText
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:id="@+id/newTitle"
+        android:hint="@string/shopping_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:layout_marginRight="5dp"
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:padding="3dp"
+        android:src="@drawable/baseline_done_black_36" />
+
+</LinearLayout>
